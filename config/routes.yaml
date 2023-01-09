@@ -9,3 +9,9 @@ controllers:
 app_lucky_number:
     path: /lucky/number
     controller: App\Controller\LuckyController::number
+
+
+# the "app_lucky_number" route name is not important yet
+app_twittor_accueil:
+    path: /twittor/accueil
+    controller: App\Controller\TwittorController::accueil
