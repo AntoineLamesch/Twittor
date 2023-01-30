@@ -13,5 +13,5 @@ app_lucky_number:
 
 # the "app_lucky_number" route name is not important yet
 app_twittor_accueil:
-    path: /twittor/accueil
+    path: /twittor/
     controller: App\Controller\TwittorController::accueil
