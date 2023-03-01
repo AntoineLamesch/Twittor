@@ -1,4 +1,4 @@
------------------------------------------------------------Projet Symfony 2023-----------------------------------------------
+Projet Symfony 2023 (Twittor)
 
 Membres du groupe : 
 
@@ -16,7 +16,7 @@ le nom du projet ou de l'application s'appelle TWITTOR ,
 # DESCRIPTION 
 # ENVIRONNEMENT 
 
-c'est application est faite avec le framework symfony du php 
+Cette application est faite avec le framework php, symfony
 Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web pour plus de details : https://fr.wikipedia.org/wiki/Symfony
 
 elle utilise aussi wampServer pour gérer les scripts php et la base de données https://fr.wikipedia.org/wiki/WampServer 
@@ -46,20 +46,16 @@ Un contrôleur (Controller) contient la logique concernant les actions effectué
 Vous devez d'abord lancez votre serveur Apache(xampp) pour ceux qu'utilise xampp et WampServer pour les autres , enfin de bien géré la base des donnees et les scripts php
 utilisez un terminal pour vous y connecter. Executez composer self-update (mise à jour de Composer) et procéder à l'installation du projet (git clone https://github.com/AntoineLamesch/Twittor.git .) et à la mise à jour de ses dépendances (toujours avec Composer, composer update, à la racine du projet).
 
-N'oubliez pas d'initialiser la base de données et son contenu. Pour ce faire, executer les commandes suivantes :
+Ensuite rendez vous dans un terminal Powershell puis placer vous dans le dossier ou se trouve le projet, ensuite faites les commandes :
 
-php bin/console make:migration : prépare la migration des données
-php bin/console doctrine:migrations:migrate : rend effectifs les modifications en base de données
-php bin/console doctrine:fixtures:load : injecte les "fixtures", c'est à dire les données par défaut, en base de données
+symfony server:start
 
-Puis enfin, accédez au projet Symfony par l'intermédiaire de votre navigateur, dans la racine de votre project faites symfony server:start
-puis récupérer l'URL en et saisisez le sur votre navigateur 
+Puis rendez vous dans l'adresse locale indiqué par votre navigateur.Ajouter l'extension /login à cette adresse puis connecter vous avec l'adresse mail test.test@gmail.com et le mot de passe:test (identifiants de test) pour pouvoir vous connecter.
 
 
-# Consigne de réalisation
-En vous basant sur le code proposé, vous proposerez l'enrichissement d'interface de l'outil. Il vous faudra donc :
+# Fonctionnalitées Disponibles pour le moment :
 
-ajouter Bootstrap au projet, de la manière la plus adaptée
-personnaliser en CSS et en Javascript (parte JS optionnelle) la totalité des pages du site internet
-gérer aux mieux vos assets (fichiers CSS, JS, images, ....)
+-Connexion/Deconnexion
+-Affichage des messages
+-Affichages des infos de l'utilisateur
 
