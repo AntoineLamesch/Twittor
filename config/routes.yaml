@@ -4,6 +4,10 @@ controllers:
         namespace: App\Controller
     type: attribute
 
+app_first:
+    path:  /login/
+    defaults:
+        _controller: App\Controller\SecurityController::login
 
 # the "app_lucky_number" route name is not important yet
 app_lucky_number:
@@ -11,7 +15,12 @@ app_lucky_number:
     controller: App\Controller\LuckyController::number
 
 
-# the "app_lucky_number" route name is not important yet
+# the "app_twittor" route name is not important yet
 app_twittor_accueil:
     path: /twittor/
     controller: App\Controller\TwittorController::accueil
+
+
+app_login:
+    path: /login/
+    controller:  App\Controller\SecurityController::login

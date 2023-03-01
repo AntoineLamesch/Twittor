@@ -17,6 +17,7 @@ class TwittorController extends AbstractController
 
             return $this->render('twittor/accueil.html.twig', [
                 'texte' => $texte,
+                //dd('marcher pas')
             ]);
 
         }else{
