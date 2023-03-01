@@ -14,16 +14,16 @@ upload.
 le nom du projet ou de l'application s'appelle TWITTOR ,
 
 # DESCRIPTION 
-#environnement 
+# ENVIRONNEMENT 
 
 c'est application est faite avec le framework symfony du php 
 Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web pour plus de details : https://fr.wikipedia.org/wiki/Symfony
 
-elle utilise aussi wampServer pour gérer les scrip sont php et la base de données https://fr.wikipedia.org/wiki/WampServer ou 
+elle utilise aussi wampServer pour gérer les scripts php et la base de données https://fr.wikipedia.org/wiki/WampServer 
 
 elle utilise aussi Boostrap qui est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. C'est l'un des projets les plus populaires sur la plate-forme de gestion de développement GitHub https://getbootstrap.com/
 
-#Installation
+# INSTALLATION 
 
 Donc vous devez au préalable avoir installer symfony dans votre ordinateur , lien pour suivre la documentation https://symfony.com/doc/current/index.html
 
@@ -32,7 +32,7 @@ documentation pour l'installer https://www.wampserver.com/en/download-wampserver
 
 il faut donc aussi installer bootstrap (webpack) pour pouvoir utiliser les fonctionnalités de bootstrap, voir les la doc https://getbootstrap.com/docs/5.3/getting-started/webpack/
 
-#fonctionnalités
+# Fonctionnalités 
 
 cette application a presque les mêmes fonctionnalités que twitter  https://twitter.com/
 vous pouvez vous s'authentifier, envoyer et poster des messages (twitte)
