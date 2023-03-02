@@ -50,7 +50,7 @@ Ensuite rendez vous dans un terminal Powershell puis placer vous dans le dossier
 
 symfony server:start
 
-Puis rendez vous dans l'adresse locale indiqué par votre navigateur.Ajouter l'extension /login à cette adresse puis connecter vous avec l'adresse mail test.test@gmail.com et le mot de passe:test (identifiants de test) pour pouvoir vous connecter.
+Puis rendez vous dans l'adresse locale indiqué par votre navigateur.Ajouter l'extension /login à cette adresse puis connecter vous avec l'adresse mail test.test@gmail.com et le mot de passe:test123 (identifiants de test) pour pouvoir vous connecter.
 
 
 # Fonctionnalitées Disponibles pour le moment :
