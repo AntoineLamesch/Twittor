@@ -2,16 +2,39 @@
 
 {% block title %}Register{% endblock %}
 
-{% block body %}
-    <h1>Register</h1>
 
-    {{ form_start(registrationForm) }}
-        {{ form_row(registrationForm.email) }}
-        {{ form_row(registrationForm.plainPassword, {
-            label: 'Password'
-        }) }}
+
+
+
+{% block body %}
+
+<body style=" padding-top: 40px;  background-color: #f5f5f5; margin-top:70px;">
+
+
+<div style="background:white; padding: 40px 60px; border-radius:15px;  text-align: center;height:300px; width: 400px; margin: 0 auto;">
+ <h1 style="margin-Bottom:10px; margin-top:10px;">Sing up </h1>
+
+
+ 
+
+ {{ form_start(registrationForm) }}
+        <div style="margin-Right:20px;">{{ form_row(registrationForm.email) }}</div>
+       <div style="margin-left:20px;"> {{ form_row(registrationForm.plainPassword, {
+            label:'Password'
+        }) }}</div>
         {{ form_row(registrationForm.agreeTerms) }}
 
-        <button type="submit" class="btn">Register</button>
+        <button type="submit" class="btn btn-primary">Register</button>
     {{ form_end(registrationForm) }}
+
+</div>
+
+</body>
+
+
+   
+     
+
+   
 {% endblock %}
+
